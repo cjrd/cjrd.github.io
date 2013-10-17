@@ -308,6 +308,7 @@
     var inputTxtBox = document.getElementById("user-text"),
         keyCode = d3.event.keyCode;
     if (document.activeElement.id !== inputTxtBox.id){
+      inputTxtBox.value = "";
       inputTxtBox.focus();
     }
     if (keyCode == KEYCODES.UP || keyCode == KEYCODES.DOWN){
@@ -344,8 +345,6 @@
       d3Ul.selectAll(":not(.selected)").text("");
       this.value = " ";
       this.blur();
-      // TODO select the appropriate point!
-      return;
       // show over info for el
     } else{
       inText = this.value.toLowerCase();
