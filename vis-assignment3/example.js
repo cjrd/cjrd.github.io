@@ -139,6 +139,21 @@
     .text(function(d){return d.text;})
     .attr("fill","#E097E0");
 
+  // hardcode a legend in the upper right
+  var basePos = projection.invert([-122.2533502960205, 37.88670793455764]),
+      svgGG = svg.append("g");
+
+  svgGG.selectAll("circle")
+      .attr("cx", basePos[0])
+      .attr("cy", basePos[1])
+      .classed(cols[1], true)
+      .attr("r", 20)
+      .attr("fill", "blue");
+
+  
+
+          
+
   // listen for mousedown events on the svg (move the inset box)
   d3.select(document.body).on("keydown", keyDown);
   svg.on("mouseup", function(){
@@ -259,7 +274,6 @@
         d.hr = sum;
         d.name = d.name.toLowerCase().replace(/&amp;/g,"&");
       })
-      .attr("title", function(d){ return d.name;})
       .attr("class", function(d){
         return cols[d.hr];
       })
