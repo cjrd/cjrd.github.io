@@ -1,0 +1,3 @@
+[submodule "kmap"]
+	path = kmap
+	url = https://github.com/cjrd/kmap.git
