@@ -104,6 +104,7 @@ img {
 header {
   width:200px;
   float:left;
+  display: block;
 }
 
 header h1 {
@@ -189,11 +190,10 @@ header ul a strong {
 }
 
 section {
-  width: 75%;
-  min-width: 400px;
-  float:right;
-  padding-bottom:50px;
-  font-size: 1.4em;
+    width: 70%;
+    padding-bottom: 50px;
+    margin-left: 250px;
+    font-size: 1.4em;
 }
 
 small {
