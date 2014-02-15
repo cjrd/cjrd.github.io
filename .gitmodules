@@ -1,3 +1,6 @@
 [submodule "kmap"]
 	path = kmap
 	url = https://github.com/cjrd/kmap.git
+[submodule "bhealth"]
+  path = berkeley-health-ratings
+  url = https://github.com/cjrd/berkeley-food-health-ratings.git
