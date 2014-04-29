@@ -2,37 +2,38 @@
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
-  width: 80%;
-  min-width: 700px;
-  max-width: 850px;
-  margin: auto;
+    padding:50px;
+    font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#777;
+    font-weight:300;
+    width: 80%;
+    min-width: 700px;
+    max-width: 850px;
+    margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #685166;
+    color: #685166;
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+    margin:0 0 20px;
 }
 
 
 h1, h2, h3 {
-  line-height:1.1;
+    line-height:1.1;
 }
 
 h1 {
-  font-size:28px;
+    font-size:28px;
 }
 
 a {
-  color:#800080;
-  font-weight:400;
-  text-decoration:none;
+    color:#800080;
+    font-weight:400;
+    text-decoration:none;
+    outline: none;
 }
 
 a:hover {
@@ -41,70 +42,74 @@ a:hover {
 }
 
 a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.6em;
-  display:block;
+    font-size:11px;
+    color:#777;
+    margin-top:-0.6em;
+    display:block;
 }
 
 a:hover small {
-  color:#777;
+    color:#777;
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+    width:860px;
+    margin:0 auto;
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
+    border-left:1px solid #e5e5e5;
+    margin:0;
+    padding:0 0 0 20px;
+    font-style:italic;
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
-  color:#333;
-  font-size:12px;
+    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
+    color:#333;
+    font-size:12px;
 }
 
 pre {
-  padding:8px 15px;
-  background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
+    padding:8px 15px;
+    background: #f8f8f8;
+    border-radius:5px;
+    border:1px solid #e5e5e5;
+    overflow-x: auto;
 }
 
 table {
-  width:100%;
-  border-collapse:collapse;
+    width:100%;
+    border-collapse:collapse;
 }
 
 th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+    text-align:left;
+    padding:5px 10px;
+    border-bottom:1px solid #e5e5e5;
 }
 
 dt {
-  color:#444;
-  font-weight:700;
+    color:#444;
+    font-weight:700;
 }
 
 th {
-  color:#444;
+    color:#444;
 }
 
 img {
-  max-width:100%;
+    max-width:100%;
+}
+
+li {
+    line-height: 1.4em;
 }
 
 header {
-  width:200px;
-  float:left;
-  display: block;
+    width:200px;
+    float:left;
+    display: block;
 }
 
 header h1 {
@@ -123,24 +128,24 @@ header h1 {
 }
 
 header ul {
-  list-style:none;
-  padding: 0;
-  padding-left: 5em;
-  text-align: right;
+    list-style:none;
+    padding: 0;
+    padding-left: 3em;
+    text-align: right;
 }
 
 header li {
-  width: 110px;
-  height:40px;
+    width: 125px;
+    height:40px;
 }
 
 header ul a {
-  line-height:1;
-  font-size: 1.3em;
-  color:#999;
-  display:block;
-  padding-top:6px;
-  height:34px;
+    line-height:1;
+    font-size: 1.3em;
+    color:#999;
+    display:block;
+    padding-top:6px;
+    height:34px;
 }
 
 header ul a:hover {
@@ -148,27 +153,26 @@ header ul a:hover {
     text-decoration: underline;
 }
 
-header ul a:active {
-  -webkit-box-shadow: inset 0px 2px 2px 0px #ddd;
-  -moz-box-shadow: inset 0px 2px 2px 0px #ddd;
-  box-shadow: inset 0px 2px 2px 0px #ddd;
+header ul a.active {
+    color: #685166;
+}
+header ul a.active:before {
+    content: "-";
+}
+
+header ul a.active:after {
+    content: "-";
 }
 
 strong {
-  color:#716476;
-  font-weight:700;
+    color:#716476;
+    font-weight:700;
 }
-
-header ul li + li {
-  width: 110px;
-  border-left:1px solid #fff;
-}
-
 
 header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
+    font-size:14px;
+    display:block;
+    color:#222;
 }
 
 .profile-img {
@@ -182,7 +186,7 @@ header ul a strong {
 }
 
 .profile-img:hover {
-   background-image: url('/media/images/colo_sun.jpg');
+    background-image: url('/media/images/colo_sun.jpg');
 }
 
 section {
@@ -193,23 +197,22 @@ section {
 }
 
 small {
-  font-size:11px;
+    font-size:11px;
 }
 
 hr {
-  border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
+    border:0;
+    background:#e5e5e5;
+    height:1px;
+    margin:0 0 20px;
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+    width:270px;
+    float:left;
+    position:fixed;
+    bottom:50px;
 }
-
 
 /* CV specific styles  */
 .cv a {
@@ -224,17 +227,38 @@ footer {
     margin-top: 0.5em;
 }
 
-.cv ul {
+.cv ul, .lprojects ul {
     list-style: circle;
     font-size: 0.95em;
 }
 
-.cv ul ul {
+.cv ul ul, .lprojects ul ul {
     list-style: none;
     font-size: 0.9em;
     margin: 0;
 }
 
-.cv li + li {
+.cv li + li, .lprojects li + li {
     margin-top: 0.5em;
+}
+
+
+/* Live Projects specific styles */
+.lprojects ul {
+    list-style: none;
+}
+
+.lprojects hr {
+    margin: 2em auto;
+    width: 7%;
+}
+
+.border-image {
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #777777;
+}
+
+.demo {
+    text-align: center;
 }
