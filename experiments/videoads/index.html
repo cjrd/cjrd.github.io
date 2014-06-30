@@ -1,0 +1,84 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="">
+
+  <title>Video Ads Experiment</title>
+  <meta name="description" content="">
+  <meta name="author" content="Colorado Reed">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <!-- <meta name="viewport" content=""> -->
+
+    <link rel="shortcut icon" href="/media/favicon.jpg">
+  
+    <link rel="stylesheet" href="/media/css/site.css">
+  <link rel="stylesheet" href="/media/css/syntax.css">
+      <link href="//vjs.zencdn.net/4.6/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/media/css/video.ads.css">
+  <link rel="stylesheet" href="/media/css/videojs.vast.css">
+
+      <script src="/media/js/libs/modernizr-1.7.min.js"></script>
+  
+  </head>
+<body id="index">
+  <h2> YouTube video with ads </h2>
+<iframe width="420" height="315" src="//www.youtube.com/embed/fTlPJ7f9VsU" frameborder="0" allowfullscreen></iframe>
+<ul>
+<li>Must enable YouTube partnership and associate with an AdSense account to have embedded ads displayed: see <a href="https://support.google.com/youtube/answer/132596?hl=en">YouTube&#8217;s&nbsp;description</a></li>
+<li>Is the above embedded video showing ads? How about the YouTube.com&nbsp;version?</li>
+</ul>
+
+<h2> Vimeo video with ads </h2>
+<ul>
+<li>Doesn&#8217;t seem possible: <a href="http://vimeo.com/help/faq/vimeo-membership/vimeo-pro#can-i-use-vimeo-pro-to-upload-videos-that-contain-ads">ads don&#8217;t support video ads but can use 3rd party video&nbsp;players</a></li>
+</ul>
+<h2> <a href="http://videolla.com">Videolla</a> </h2>
+<object data="http://videolla.com/VideollaPlayer.swf" type="application/x-shockwave-flash" id="flash_quxa2zhu" width="608px" height="342px"><param name="expressInstaller" value="http://videolla.com/flash/expressInstall.swf"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><param name="quality" value="high"><param name="bgcolor" value="#000000"><param name="flashvars" value='distributorCode=10411&uid=quxa2zhu'><param name="movie" value="http://videolla.com/VideollaPlayer.swf"><param name="wmode" value="opaque"><!--[if !IE]>--><object type="application/x-shockwave-flash" data="http://videolla.com/VideollaPlayer.swf" width="608px" height="342px"><!--<![endif]--><a href='http://videolla.com/10411/shows/quxa2zhu' target='_blank' style='width:608px;height:342px;'><div style='position:relative;width:608px;height:342px;'><img src='http://videolla.com/shows/quxa2zhu/thumbnail' width="608px" height="342px"><div style='display:block;position:absolute;top:50%;left:50%;margin-left:-43px;margin-top:-43px;'><img src='http://videolla.com/images/big-play-button.png' /></div></div></a><!--[if !IE]>--></object><!--<![endif]--></object>
+<ul>
+<li>Crappy website &#8212; feels&nbsp;unmaintained</li>
+<li>Uploaded video to <a href="http://videolla.com">videolla</a> and used embedding&nbsp;option</li>
+<li>Video upload/association procedure was annoyingly&nbsp;painful</li>
+<li>Can let people buy/rent video or &#8220;watch with&nbsp;ads&#8221;</li>
+</ul>
+
+<h2>video.js video player with ad support</h2>
+<video id="vidjs_onion_1" class="video-js vjs-default-skin"
+  controls preload="auto" width="640" height="264"
+  poster="http://video-js.zencoder.com/oceans-clip.png"
+  data-setup='{"example_option":true}'
+ <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+ <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+ <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+ <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
+<h2 id="-using-videojs-player-with-the-onions-vast-ad-extension">- using <a href="http://www.videojs.com/">video.js</a> player with <a href="http://theonion.github.io/videojs-vast-plugin/">The Onion&#8217;s <span class="caps">VAST</span> ad&nbsp;extension</a></h2>
+
+<h2>flowplayer video player with ad support...</h2>
+TODO
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+  
+    
+      <script src="//vjs.zencdn.net/4.6/video.js"></script>
+  <script src="/media/js/libs/vast-client.js"></script>
+  <script src="/media/js/libs/video.ads.js"></script>
+  <script src="/media/js/libs/videojs.vast.js"></script>
+
+  <script>
+    // The Onion's vast video.js extension
+    var vid1 = videojs('vidjs_onion_1');
+    vid1.ads();
+    vid1.vast({
+      url: 'http://ad3.liverail.com/'
+    });
+  </script>
+</body>
+</html>
