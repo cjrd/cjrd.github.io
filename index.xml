@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running the Tao Te Ching - 2</title>
+      <link>http://example.org/posts/running-tao-te-ching-2/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/running-tao-te-ching-2/</guid>
+      <description>When runners see some runs as beautiful
+other runs become ugly
+When runners see some runs as good
+other runs become bad
+Running and non-running create each other
+Difficult and easy runs support each other
+Long and short runs define each other
+A runner&amp;rsquo;s highs and lows depend on each other
+The time before and after running follow each other
+Therefore the Master
+runs without doing anything
+and instructs without saying anything</description>
+    </item>
+    
+    <item>
+      <title>Running the Tao Te Ching</title>
+      <link>http://example.org/posts/running-tao-te-ching-1/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/running-tao-te-ching-1/</guid>
+      <description>todo this</description>
+    </item>
+    
+  </channel>
+</rss>
