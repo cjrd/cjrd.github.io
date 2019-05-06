@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://1337potato.com/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://1337potato.com/posts/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/running-tao-te-ching-2/</loc>
+    <loc>https://1337potato.com/posts/running-tao-te-ching-2/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/running-tao-te-ching-1/</loc>
+    <loc>https://1337potato.com/posts/running-tao-te-ching-1/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://1337potato.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://1337potato.com/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>1337 Potato</title>
+    <link>https://1337potato.com/</link>
+    <description>Recent content on 1337 Potato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://1337potato.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Running the Tao Te Ching - 2</title>
-      <link>http://example.org/posts/running-tao-te-ching-2/</link>
+      <link>https://1337potato.com/posts/running-tao-te-ching-2/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/running-tao-te-ching-2/</guid>
+      <guid>https://1337potato.com/posts/running-tao-te-ching-2/</guid>
       <description>When runners see some runs as beautiful
 other runs become ugly
 When runners see some runs as good
@@ -33,10 +33,10 @@ and instructs without saying anything</description>
     
     <item>
       <title>Running the Tao Te Ching</title>
-      <link>http://example.org/posts/running-tao-te-ching-1/</link>
+      <link>https://1337potato.com/posts/running-tao-te-ching-1/</link>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/running-tao-te-ching-1/</guid>
+      <guid>https://1337potato.com/posts/running-tao-te-ching-1/</guid>
       <description>todo this</description>
     </item>
     
