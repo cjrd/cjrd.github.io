@@ -25,6 +25,14 @@ h1 {
   font-weight:normal;
   margin-top: 0;
 }
+.posts {
+  font-size: 0.5em;
+}
+.list-header h3,
+.list-header time {
+  display: inline;
+  font-size: 0.5em;
+}
 
 p {
   line-height: 1.3em;
