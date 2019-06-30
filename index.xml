@@ -6,10 +6,26 @@
     <description>Recent content on 1337 Potato</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://1337potato.com/index.xml" rel="self" type="application/rss+xml" />
     
-	<atom:link href="https://1337potato.com/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Reacting is Easier</title>
+      <link>https://1337potato.com/posts/reactions/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://1337potato.com/posts/reactions/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s easier to let other people occupy my time. React to their needs.&lt;br /&gt;
+It feels productive to make progress for others. To see that I can help them.&lt;br /&gt;
+Responding to emails, attending meetings, looking at Slack alerts.&lt;/p&gt;
+
+&lt;p&gt;So I sit down to do some deep work: some heavy thought about big projects. And I find myself checking my email and looking for Slack alerts. Secretly hoping someone else will block out the next hour for me, so that I don&amp;rsquo;t have to drive forward my own thoughts. Because it&amp;rsquo;s hard to do that. It hurts to do that. I feel incompetent and inadequate when I do that.&lt;/p&gt;
+
+&lt;p&gt;But letting this happen leads to a busy, ostensibly productive life of doing very little. But as a declaration of focus, let me say that I will choose my time, and explicitly accept that it will be more difficult to do this. I will have to let others down, and I will likely fail quite a bit. But it&amp;rsquo;s better than the alternative.&lt;/p&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s get started on some of those future failing ideas.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rain on Leaves</title>
@@ -17,13 +33,26 @@
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://1337potato.com/posts/rain-on-leaves/</guid>
-      <description>Rain began to beat down on me yesterday morning.
-I was trail running.
-I woke up before the sun.
-My mind was clear.
-I was doing my part.
-But the rain beat down on my path. It began to pour, and I could hear the orchestra of the raining forest: rain on leaves.
-And when I think about the sound of rain on leaves, I think of relaxation. I imagine most people do.</description>
+      <description>&lt;p&gt;Rain began to beat down on me yesterday morning.&lt;/p&gt;
+
+&lt;p&gt;I was trail running.&lt;br /&gt;
+I woke up before the sun.&lt;br /&gt;
+My mind was clear.&lt;br /&gt;
+I was doing my part.&lt;/p&gt;
+
+&lt;p&gt;But the rain beat down on my path. It began to pour, and I could hear the orchestra of the raining forest: rain on leaves.&lt;/p&gt;
+
+&lt;p&gt;And when I think about the sound of rain on leaves, I think of relaxation. I imagine most people do. It&amp;rsquo;s used in spas and healing centers, white noise machines and concentration soundtracks.&lt;/p&gt;
+
+&lt;p&gt;But I was wet, and my fingers were numb. It wasn&amp;rsquo;t a spa or a sleep aid. It was uncomfortable.
+The rain on the leaves was uncomfortable.
+I had every reason to feel uncomfortable, to put my mind in a state of discomfort and feel sorry for my bad luck.&lt;/p&gt;
+
+&lt;p&gt;I had every reason to feel sorry for my unfortunate circumstances.&lt;/p&gt;
+
+&lt;p&gt;Or.&lt;br /&gt;
+I could listen to the rain on the leaves.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -32,11 +61,34 @@ And when I think about the sound of rain on leaves, I think of relaxation. I ima
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://1337potato.com/posts/running-tao-te-ching-2/</guid>
-      <description>While reading the Tao Te Ching, I found that certain chapters connect very well with running. In order to further connect with these chapters myself, I &amp;ldquo;translated&amp;rdquo; them into a form that directly connects with running, which is a fundamental part of my life.
-This is from Chapter 2 of the Tao Te Ching; translated by Stephen Mitchell:
-Seeing some runs as beautiful
-makes other runs ugly
-Seeing some runs as good</description>
+      <description>&lt;p&gt;While reading the Tao Te Ching, I found that certain chapters connect very well with running. In order to further connect with these chapters myself, I &amp;ldquo;translated&amp;rdquo; them into a form that directly connects with running, which is a fundamental part of my life.&lt;/p&gt;
+
+&lt;p&gt;This is from &lt;a href=&#34;http://taoteching.org.uk/index.php?c=2&amp;amp;a=Stephen+Mitchell&#34;&gt;Chapter 2 of the Tao Te Ching&lt;/a&gt;; translated by Stephen Mitchell:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Seeing some runs as beautiful&lt;br /&gt;
+makes other runs ugly&lt;br /&gt;
+Seeing some runs as good&lt;br /&gt;
+makes other runs bad&lt;/p&gt;
+
+&lt;p&gt;Running and non-running create each other&lt;br /&gt;
+Difficult and easy runs support each other&lt;br /&gt;
+Long and short runs define each other&lt;br /&gt;
+A runner&amp;rsquo;s highs and lows depend on each other&lt;br /&gt;
+The time before and after running follow each other&lt;/p&gt;
+
+&lt;p&gt;Therefore the Master&lt;br /&gt;
+runs without doing anything&lt;br /&gt;
+and instructs without saying anything&lt;br /&gt;
+Things arise and she lets them come&lt;br /&gt;
+Things disappear and she lets them go&lt;br /&gt;
+She has ability without possessing it&lt;br /&gt;
+runs without expectation&lt;/p&gt;
+
+&lt;p&gt;When her run is finished, she forgets it&lt;br /&gt;
+that is why it lasts forever&lt;/p&gt;
+</description>
     </item>
     
   </channel>
