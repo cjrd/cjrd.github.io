@@ -29,12 +29,12 @@ footer svg {
   border-radius: 50%;
   height: 10rem;
   width: 10rem;
-  background: url(static/img/colo-bw.jpg);
+  background: url(../static/img/colo-bw.jpg);
   background-size: cover;
   opacity: 0.95;
 }
 .profile-img:hover {
-  background: url(static/img/colo-style-transfer.jpg);
+  background: url(../static/img/colo-style-transfer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
