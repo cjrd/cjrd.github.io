@@ -1,159 +1,118 @@
 /*   
-From Colorado Reed http://obphio.us
+From Colorado Reed
 
 This theme is uncopyrighted, free, and offered as is.
 Originally from Leo Babauta @mnmlist.com. Thanks Leo.
 */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica-neue, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1em;
-  line-height: 1.5em;
-  color: #222;
-  background: #fafafa;
-  max-width: 38rem;
-  padding: 2rem;
+  font-size: 1rem;
+  max-width: 40rem;
+  text-align: justify;
+}
+
+footer svg {
+  height: 16vw;
+  width: 100%;
+  opacity: 0.15;
+}
+
+.nav-list {
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.profile-img {
   margin: auto;
+  border: 1px solid #999;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  background: url(/static/img/colo-bw.jpg);
+  background-size: cover;
+  opacity: 0.95;
+}
+.profile-img:hover {
+  background: url(/static/img/colo-style-transfer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#content {max-width: 32.5em; overflow: hidden; margin: auto;}
+.profile-text {
+  margin-top: 1rem;
+}
+.profile-text ul {
+  padding-left: 0.3rem;
+  margin-top: 1rem;
+}
 
-h1 {
-  font-size: 1.6em;
-  color:#333;
-  line-height: 1.5em;
-  font-weight:normal;
+.question {
+  font-weight: bold;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.answer {
   margin-top: 0;
+
 }
 
-.list-header h3,
-.list-header time {
-  display: inline;
+.section {
+  margin-top: 3rem;
 }
 
-p {
-  line-height: 1.3em;
+.social-links{
+  text-align: center;
+  margin-top: 0.5rem;
 }
-
-a {
+.social-links a {
   text-decoration: none;
+  opacity: 0.7;
+  display: inline-block;
 }
-a:link {
-  color: #333;
+.social-links a+a {
+  margin-left: 0.5rem;
+}
+.social-links a:hover {
   text-decoration: none;
+  opacity: 1.0;
 }
-a:visited {
-  color: #333;
-  text-decoration: none;
-}
-a:hover {
-  color: #999;
-  text-decoration: none;
+.social-links svg {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
-
-.entry a:link {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
-.entry a:visited {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
-.entry a:hover {background: #e7eef8; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0; text-decoration: none;}
-.entry strong{font:Arial, Helvetica, sans-serif; font-weight: bold; font-size:1em; color: #555555;}
-
-
-#footer {background:#fff; clear: both;width: 100%;}
-#footer p{padding:14px 0;margin: 0; color: #666; text-align:center;}
-#footer a{color: #666;text-decoration: none;}
-#footer a:hover{color: #000000;text-decoration: none;}
-
-
-/* for narrower browsers */
-@media screen and (max-width: 800px) {
-  .navigation p { font-size: 1em }
-  subscribe ul {
-    margin-top: 4em;
-    font-size: 1.6em;
-    line-height: 1.6em;
-  }
-  .footer p { font-size: 1em }
-  h2 { font-size: 2.5em }
-  h3 { font-size: 2em }
-  h6 { font-size: .8em }
-  p {
-    font-size: 1em;
-    line-height: 1.4em;
-  }
-  .post ul {
-    font-size: 1em;
-    line-height: 1em;
-    padding: .1;
-  }
-  .post ol {
-    font-size: 1em;
-    line-height: 1em;
-    padding: .1;
-  }
-  .posts {
-    font-size: 1em;
-  }
+ul {
+  padding: 0;
+}
+.publications li {
+    margin-bottom: 1rem;
 }
 
-/* for iPad-sized devices */
-@media only screen and (max-device-width: 800px) {
-  .navigation p { font-size: 1em }
-  .subscribe ul {
-    margin-top: 4em;
-    font-size: 1.8em;
-  }
-  .footer p { font-size: 1.2em }
-  h2 { font-size: 2.5em }
-  h3 { font-size: 2em }
-  h6 { font-size: 1em }
-  p {
-    font-size: 1.4em;
-    line-height: 1.3em;
-  }
-  .post ul {
-    font-size: 1em;
-    line-height: 1em;
-    padding: .1;
-  }
-  .post ol {
-    font-size: 1em;
-    line-height: 1em;
-    padding: .1;
-  }
-  #arc {
-    font-size: 1.2em;
-  }
-
-  .posts h3 {
-    font-size: 1em;
-  }  
+.title {
+  font-weight: bolder;
+}
+.tldr{
+  font-style: italic;
+  color: gray;
+  font-size: 0.9rem;
+  margin-top:0.3rem;
+  line-height: 1.1rem;
 }
 
+.awards ul {
+  padding-left: 1rem;
+  list-style-type:square;
 
-/* for iPhone-sized devices */
-@media only screen and (max-device-width: 480px) {
-  body {
-    padding: 1em;
-  }
-
-  #content {
-    max-width: 55em; overflow: hidden; margin: auto;
-  }
-
-  p {
-    font-size: 1em;
-    line-height: 1.3em;
-    margin-bottom: 1.2em;
-  }
-  ul {
-    list-style-type: disc;
-  }
-  ol {
-    list-style-position: inside;
-    padding: .5em;
-  }
-  
-  .navigation p { font-size: .8em; margin-top: 1em }
-  .footer p { font-size: .9em }
 }
 
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 812px)
+and (orientation: landscape) {
+  footer svg {
+    display: none;
+  } 
+}

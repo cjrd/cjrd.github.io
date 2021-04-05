@@ -1,0 +1,64 @@
+/*   
+From Colorado Reed http://1337potato.com
+
+This theme is uncopyrighted, free, and offered as is.
+Originally from Leo Babauta @mnmlist.com. Thanks Leo.
+*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica-neue,
+               Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+               "Segoe UI Symbol";
+  font-size: 1.1rem;
+  line-height: 1.5em;
+  color: #353033;
+  background: #fafafa;
+  max-width: 38rem;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+h1 {
+  font-size: 1.6em;
+  color:#333;
+  line-height: 1.5em;
+  font-weight:normal;
+  margin-top: 0;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+  padding-top: 2rem;
+}
+
+.list-header h3,
+.list-header time { 
+  display: inline;
+}
+
+p {
+  line-height: 1.39em;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: #353033;
+  text-decoration-color: #3f5843;
+  text-decoration-style: solid;
+  text-decoration-thickness: .125em;
+  text-underline-offset: 1.5px;
+}
+a:hover {
+  color: #999;
+}

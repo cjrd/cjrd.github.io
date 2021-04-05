@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 1337 Potato</title>
+    <title>Posts on Colorado Reed</title>
     <link>https://1337potato.com/posts/</link>
-    <description>Recent content in Posts on 1337 Potato</description>
+    <description>Recent content in Posts on Colorado Reed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://1337potato.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://1337potato.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reacting is Easier</title>
       <link>https://1337potato.com/posts/reactions/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://1337potato.com/posts/reactions/</guid>
-      <description>It&amp;rsquo;s easier to let other people occupy my time. React to their needs.
+      <description>It&amp;rsquo;s easier to let other people find things to do with my time. React to their needs.
 It feels productive to make progress for others. To see that I can help them.
 Responding to emails, attending meetings, looking at Slack alerts.
 So I sit down to do some deep work: some heavy thought about big projects. And I find myself checking my email and looking for Slack alerts. Secretly hoping someone else will block out the next hour for me, so that I don&amp;rsquo;t have to drive forward my own thoughts.</description>
@@ -46,7 +42,7 @@ And when I think about the sound of rain on leaves, I think of relaxation. I ima
       <guid>https://1337potato.com/posts/running-tao-te-ching-2/</guid>
       <description>While reading the Tao Te Ching, I found that certain chapters connect very well with running. In order to further connect with these chapters myself, I &amp;ldquo;translated&amp;rdquo; them into a form that directly connects with running, which is a fundamental part of my life.
 This is from Chapter 2 of the Tao Te Ching; translated by Stephen Mitchell:
-Seeing some runs as beautiful
+ Seeing some runs as beautiful
 makes other runs ugly
 Seeing some runs as good</description>
     </item>
