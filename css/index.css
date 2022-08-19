@@ -184,8 +184,13 @@ ul {
 }
 
 .pub {
+  line-height: 1.2rem;
   margin-left: 2rem;
   margin-top: -6px;
+}
+.pub div {
+  margin-bottom: 0.5rem;
+
 }
 
 @media all and (min-width:0px) and (max-width: 568px) {
