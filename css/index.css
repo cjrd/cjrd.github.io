@@ -125,6 +125,7 @@ ul {
 }
 
 .email-bit {
+  line-height: 1rem;
   font-family: mono;
   text-align: center;
   font-size: 0.7rem;
@@ -142,7 +143,7 @@ ul {
   margin: auto;
   text-align: center;
   font-size: .8em;
-  margin-top: -2rem;
+  margin-top: -10px;
   font-style: italic;  
 }
 .waviy span {
@@ -200,13 +201,12 @@ ul {
   }
 
   body{
+    text-align: left;
     margin-bottom: 3rem;
+    padding: 2rem 1rem;
   }
 
-  .pub-img, .pub-img img {
-    display: none;
-  }
   .pub {
-    margin-left: 0;
+    margin-left: 0.5rem;
   }
 }
