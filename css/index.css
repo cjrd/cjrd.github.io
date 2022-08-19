@@ -47,7 +47,6 @@ footer svg {
 }
 
 
-
 .profile-text {
   margin-top: 2rem;
 }
@@ -120,10 +119,9 @@ ul {
   line-height: 1.1rem;
 }
 
-.awards ul {
+.awards ul, .advisees ul {
   padding-left: 1rem;
   list-style-type:square;
-
 }
 
 .email-bit {
