@@ -1,14 +1,22 @@
 /*   
 From Colorado Reed
 
-This theme is uncopyrighted, free, and offered as is.
-Originally from Leo Babauta @mnmlist.com. Thanks Leo.
+This is uncopyrighted, free, and offered as is.
+Use it however you want but don't blame me if it breaks.
+
+This incident will be reported.
 */
+
+@-webkit-keyframes name {
+  0% {background-color:black;}
+  100% {background-color:white;}
+}
 
 body {
   font-size: 1rem;
-  max-width: 40rem;
+  max-width: 42rem;
   text-align: justify;
+  -webkit-animation:name 0.5s;
 }
 
 footer svg {
@@ -27,20 +35,21 @@ footer svg {
   margin: auto;
   border: 1px solid #999;
   border-radius: 50%;
-  height: 10rem;
-  width: 10rem;
-  background: url(../static/img/colo-bw.jpg);
+  height: 15rem;
+  width: 15rem;
+  background: url(../static/img/headshot.jpeg);
   background-size: cover;
-  opacity: 0.95;
 }
 .profile-img:hover {
-  background: url(../static/img/colo-style-transfer.jpg);
+  background: url(../static/img/headshot-w-pretzel.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+
+
 .profile-text {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .profile-text ul {
   padding-left: 0.3rem;
@@ -88,7 +97,7 @@ ul {
   padding: 0;
 }
 .publications li {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .title {
@@ -108,11 +117,84 @@ ul {
 
 }
 
-@media only screen 
-and (min-device-width: 320px)
-and (max-device-width: 812px)
-and (orientation: landscape) {
+.email-bit {
+  font-family: mono;
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgba(0,0,0,0.2);
+}
+
+.email-bit span::selection {
+    background: black;
+    color: #33FF33;
+}
+
+.waviy {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  font-size: .8em;
+  margin-top: -2rem;
+  font-style: italic;  
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  animation: flip 10s infinite;
+  animation-delay: calc(.1s * var(--i));
+  margin-left: -0.15rem;
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+.waviy:hover {
+  background: #ebebeb;
+}
+
+:checked + #tell-me-more {
+  display: none;  
+}
+
+:checked ~ .more-bio {
+  display: block;
+}
+
+.more-bio {
+  display: none;
+}
+
+.pub-wrap {
+  display: flex;
+}
+
+.pub-img, .pub-img img {
+  max-width: 170px;
+  width: 30vw;
+}
+
+.pub {
+  margin-left: 2rem;
+  margin-top: -6px;
+}
+
+@media all and (min-width:0px) and (max-width: 568px) {
+  /* put your css styles in here */
   footer svg {
     display: none;
-  } 
+  }
+
+  body{
+    margin-bottom: 3rem;
+  }
+
+  .pub-img, .pub-img img {
+    display: none;
+  }
+  .pub {
+    margin-left: 0;
+  }
 }

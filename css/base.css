@@ -1,8 +1,10 @@
 /*   
-From Colorado Reed http://1337potato.com
+From Colorado Reed
 
-This theme is uncopyrighted, free, and offered as is.
-Originally from Leo Babauta @mnmlist.com. Thanks Leo.
+This is uncopyrighted, free, and offered as is.
+Use it however you want but don't blame me if it breaks.
+
+This incident will be reported.
 */
 
 body {
@@ -12,7 +14,7 @@ body {
   font-size: 1.1rem;
   line-height: 1.5em;
   color: #353033;
-  background: #fafafa;
+  background: #fff;
   max-width: 38rem;
   padding: 0 2rem;
   margin: auto;
