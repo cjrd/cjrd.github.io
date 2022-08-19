@@ -99,6 +99,15 @@ ul {
 .publications li {
     margin-bottom: 3rem;
 }
+.publications h3 {
+  text-align: center;
+  margin: 2rem 0;
+  /* font-style: italic; */
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0.1rem 0;
+  background: rgba(0,0,0,0.6);
+  color: white;  
+}
 
 .title {
   font-weight: bolder;
