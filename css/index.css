@@ -182,6 +182,7 @@ ul {
 .pub-img, .pub-img img {
   max-width: 170px;
   width: 30vw;
+  border-radius: 5px;
 }
 
 .pub {
